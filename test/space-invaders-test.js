@@ -48,9 +48,9 @@ describe('space invaders', () => {
     })
 
     it('should not be assigned to a ship', function() {
-      expect(tristan.ship_id).toBe(undefined)
-      expect(jon.ship_id).toBe(undefined)
-      expect(katie.ship_id).toBe(undefined)
+      expect(tristan.spaceshipId).toBe(undefined)
+      expect(jon.spaceshipId).toBe(undefined)
+      expect(katie.spaceshipId).toBe(undefined)
 
     })
 
